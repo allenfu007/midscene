@@ -1,0 +1,355 @@
+[2025-09-17T22:25:29.344+08:00] Using page.getContext for action: locate
+[2025-09-17T22:25:37.164+08:00] Using page.getContext for action: locate
+[2025-09-17T22:25:37.297+08:00] Using page.getContext for action: locate
+[2025-09-17T22:25:37.480+08:00] Using page.getContext for action: locate
+[2025-09-17T22:25:38.365+08:00] Using page.getContext for action: locate
+[2025-09-17T22:25:44.768+08:00] Using page.getContext for action: locate
+[2025-09-17T22:25:45.455+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\bing-search-2025-09-17_22-25-29-ec381d40.html
+[2025-09-17T22:25:48.532+08:00] Using page.getContext for action: extract
+[2025-09-17T22:25:48.662+08:00] Using page.getContext for action: extract
+[2025-09-17T22:25:52.113+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\bing-search-2025-09-17_22-25-29-ec381d40.html
+[2025-09-17T22:28:26.616+08:00] Using page.getContext for action: locate
+[2025-09-17T22:33:29.060+08:00] Using page.getContext for action: locate
+[2025-09-17T22:33:35.111+08:00] Using page.getContext for action: locate
+[2025-09-17T22:33:35.359+08:00] Using page.getContext for action: locate
+[2025-09-17T22:33:36.297+08:00] Using page.getContext for action: locate
+[2025-09-17T22:33:41.151+08:00] Using page.getContext for action: locate
+[2025-09-17T22:33:41.371+08:00] Using page.getContext for action: locate
+[2025-09-17T22:33:42.138+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\bing-search-2025-09-17_22-33-29-5fc27162.html
+[2025-09-17T22:33:45.272+08:00] Using page.getContext for action: extract
+[2025-09-17T22:33:45.421+08:00] Using page.getContext for action: extract
+[2025-09-17T22:33:48.829+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\bing-search-2025-09-17_22-33-29-5fc27162.html
+[2025-09-17T22:36:14.881+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:23.450+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:23.662+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:24.925+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:28.988+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-17_22-36-14-8dc46ddc.html
+[2025-09-17T22:36:28.988+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:33.508+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:33.662+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:33.875+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:34.291+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-17_22-36-14-8dc46ddc.html
+[2025-09-17T22:36:36.293+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:41.427+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:41.639+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:42.191+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-17_22-36-14-8dc46ddc.html
+[2025-09-17T22:36:42.192+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:50.109+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:50.306+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:51.589+08:00] Using page.getContext for action: locate
+[2025-09-17T22:36:56.352+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-17_22-36-14-8dc46ddc.html
+[2025-09-17T22:36:56.353+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '点击登录按钮',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-17T22:36:56.353+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '点击登录按钮',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-17T22:36:56.353+08:00] Using page.getContext for action: locate
+[2025-09-17T22:37:00.462+08:00] Using page.getContext for action: locate
+[2025-09-17T22:37:00.921+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-17_22-36-14-8dc46ddc.html
+[2025-09-17T22:37:00.922+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '点击左侧菜单「客户」',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-17T22:37:00.922+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '点击左侧菜单「客户」',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-17T22:37:00.923+08:00] Using page.getContext for action: locate
+[2025-09-17T22:37:04.658+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-17_22-36-14-8dc46ddc.html
+[2025-09-18T10:38:44.031+08:00] Using page.getContext for action: locate
+[2025-09-18T10:38:49.370+08:00] Using page.getContext for action: locate
+[2025-09-18T10:38:49.601+08:00] Using page.getContext for action: locate
+[2025-09-18T10:38:50.848+08:00] Using page.getContext for action: locate
+[2025-09-18T10:38:54.243+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:38:54.244+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:01.154+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:01.279+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:01.495+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:01.953+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:39:01.953+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:09.284+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:09.490+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:10.821+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:39:10.822+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '点击登录按钮',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-18T10:39:10.822+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '点击登录按钮',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-18T10:39:10.823+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:13.655+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:14.123+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:39:14.123+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '点击最左侧菜单栏中的「客户」',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-18T10:39:14.123+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '点击最左侧菜单栏中的「客户」',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-18T10:39:14.123+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:18.049+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:18.553+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:39:18.553+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '点击「人群圈选」',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-18T10:39:18.553+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '点击「人群圈选」',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-18T10:39:18.553+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:21.602+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:22.253+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:39:22.350+08:00] Using page.getContext for action: extract
+[2025-09-18T10:39:22.489+08:00] Using page.getContext for action: extract
+[2025-09-18T10:39:25.015+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:39:26.024+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '点击「新建人群」按钮',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-18T10:39:26.024+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '点击「新建人群」按钮',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-18T10:39:26.024+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:28.433+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:29.544+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:39:30.557+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '点击「会员年龄」',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-18T10:39:30.557+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '点击「会员年龄」',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-18T10:39:30.557+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:34.250+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:34.745+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:39:34.746+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:39.557+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:39.815+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:40.584+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:44.110+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:39:44.110+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:48.208+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:48.450+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:49.230+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:52.531+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:39:52.531+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:59.602+08:00] Using page.getContext for action: locate
+[2025-09-18T10:39:59.774+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:00.032+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:01.323+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:40:01.323+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:07.182+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:07.350+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:07.599+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:08.798+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:40:08.798+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '点击「保存人群」按钮',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-18T10:40:08.798+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '点击「保存人群」按钮',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-18T10:40:08.798+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:11.289+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:11.835+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:40:12.842+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '在列表选择「自动创建人群1」',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-18T10:40:12.842+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '在列表选择「自动创建人群1」',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-18T10:40:12.842+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:15.630+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:16.260+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:40:16.261+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '点击「删除」操作',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-18T10:40:16.261+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '点击「删除」操作',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-18T10:40:16.261+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:19.967+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:20.507+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:40:20.592+08:00] Using page.getContext for action: extract
+[2025-09-18T10:40:20.736+08:00] Using page.getContext for action: extract
+[2025-09-18T10:40:23.076+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:40:23.076+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '若未出现弹窗则重试点击删除',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-18T10:40:23.076+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '若未出现弹窗则重试点击删除',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-18T10:40:23.076+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:25.744+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:26.237+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html
+[2025-09-18T10:40:26.237+08:00] callActionInActionSpace Tap , {
+  locate: {
+    prompt: '在弹窗点击「确定」',
+    deepThink: false,
+    cacheable: true,
+    xpath: undefined
+  }
+}
+[2025-09-18T10:40:26.237+08:00] actionPlan {
+  type: 'Tap',
+  param: {
+    locate: {
+      prompt: '在弹窗点击「确定」',
+      deepThink: false,
+      cacheable: true,
+      xpath: undefined
+    }
+  },
+  thought: ''
+}
+[2025-09-18T10:40:26.237+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:30.563+08:00] Using page.getContext for action: locate
+[2025-09-18T10:40:31.117+08:00] writeOutActionDumps D:\DQC\midscene\midscene_run\report\customer-segment-2025-09-18_10-38-44-bac923a0.html

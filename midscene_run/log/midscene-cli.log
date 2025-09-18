@@ -1,0 +1,43 @@
+[2025-09-17T22:08:39.088+08:00] argv {
+  _: [ './bing-search.yaml' ],
+  '$0': 'C:\\Users\\fusha\\AppData\\Roaming\\npm\\node_modules\\@midscene\\cli\\bin\\midscene'
+}
+[2025-09-17T22:14:20.819+08:00] argv {
+  _: [ './bing-search.yaml' ],
+  '$0': 'C:\\Users\\fusha\\AppData\\Roaming\\npm\\node_modules\\@midscene\\cli\\bin\\midscene'
+}
+[2025-09-17T22:15:22.711+08:00] argv {
+  _: [ './bing-search.yaml' ],
+  '$0': 'C:\\Users\\fusha\\AppData\\Roaming\\npm\\node_modules\\@midscene\\cli\\bin\\midscene'
+}
+[2025-09-17T22:18:15.505+08:00] argv {
+  _: [ './bing-search.yaml' ],
+  '$0': 'C:\\Users\\fusha\\AppData\\Roaming\\npm\\node_modules\\@midscene\\cli\\bin\\midscene'
+}
+[2025-09-17T22:25:10.129+08:00] argv {
+  _: [ './bing-search.yaml' ],
+  '$0': 'C:\\Users\\fusha\\AppData\\Roaming\\npm\\node_modules\\@midscene\\cli\\bin\\midscene'
+}
+[2025-09-17T22:28:14.561+08:00] argv {
+  _: [ './bing-search.yaml' ],
+  '$0': 'C:\\Users\\fusha\\AppData\\Roaming\\npm\\node_modules\\@midscene\\cli\\bin\\midscene'
+}
+[2025-09-17T22:28:44.002+08:00] argv {
+  _: [ './bing-search.yaml' ],
+  '$0': 'C:\\Users\\fusha\\AppData\\Roaming\\npm\\node_modules\\@midscene\\cli\\bin\\midscene'
+}
+[2025-09-17T22:33:18.216+08:00] argv {
+  _: [ '.\\bing-search.yaml' ],
+  headed: true,
+  '$0': 'C:\\Users\\fusha\\AppData\\Roaming\\npm\\node_modules\\@midscene\\cli\\bin\\midscene'
+}
+[2025-09-17T22:36:11.345+08:00] argv {
+  _: [ '.\\customer-segment.yaml' ],
+  headed: true,
+  '$0': 'C:\\Users\\fusha\\AppData\\Roaming\\npm\\node_modules\\@midscene\\cli\\bin\\midscene'
+}
+[2025-09-18T10:38:42.128+08:00] argv {
+  _: [ '.\\customer-segment.yaml' ],
+  headed: true,
+  '$0': 'C:\\Users\\fusha\\AppData\\Roaming\\npm\\node_modules\\@midscene\\cli\\bin\\midscene'
+}

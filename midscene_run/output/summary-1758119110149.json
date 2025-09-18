@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "total": 1,
+    "successful": 0,
+    "failed": 1,
+    "totalDuration": 41958,
+    "generatedAt": "2025/9/17 22:25:52"
+  },
+  "results": [
+    {
+      "script": "..\\..\\bing-search.yaml",
+      "success": false,
+      "output": "./bing-search-1758119110155.json",
+      "report": "..\\report\\bing-search-2025-09-17_22-25-29-ec381d40.html",
+      "error": "Execution failed",
+      "duration": 41958
+    }
+  ]
+}

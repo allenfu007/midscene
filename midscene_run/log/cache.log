@@ -1,0 +1,314 @@
+[2025-09-17T22:25:29.338+08:00] no cache file found, path: D:\DQC\midscene\midscene_run\cache\bing-search.cache.yaml
+[2025-09-17T22:25:29.343+08:00] no unused cache found, type: plan, prompt: 搜索 "今日天气"
+[2025-09-17T22:25:37.296+08:00] no unused cache found, type: locate, prompt: 搜索框
+[2025-09-17T22:25:37.426+08:00] will append cache {
+  type: 'locate',
+  prompt: '搜索框',
+  xpaths: [
+    '/html/body/div[1]/div[1]/div[3]/div[2]/form[1]/div[1]/div[1]/textarea[1]'
+  ]
+}
+[2025-09-17T22:25:37.428+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\bing-search.cache.yaml
+[2025-09-17T22:25:45.417+08:00] will append cache {
+  type: 'plan',
+  prompt: '搜索 "今日天气"',
+  yamlWorkflow: 'tasks:\n' +
+    '  - name: 搜索 "今日天气"\n' +
+    '    flow:\n' +
+    "      - aiInput: ''\n" +
+    '        value: 今日天气\n' +
+    '        locate: 搜索框\n' +
+    "      - aiKeyboardPress: ''\n" +
+    '        keyName: Enter\n'
+}
+[2025-09-17T22:25:45.418+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\bing-search.cache.yaml
+[2025-09-17T22:28:26.612+08:00] cache loaded from file, path: D:\DQC\midscene\midscene_run\cache\bing-search.cache.yaml, cache version: 0.28.9, record length: 2
+[2025-09-17T22:28:26.615+08:00] cache found and marked as used, type: plan, prompt: 搜索 "今日天气", index: 0
+[2025-09-17T22:33:29.055+08:00] cache loaded from file, path: D:\DQC\midscene\midscene_run\cache\bing-search.cache.yaml, cache version: 0.28.9, record length: 2
+[2025-09-17T22:33:29.059+08:00] cache found and marked as used, type: plan, prompt: 搜索 "今日天气", index: 0
+[2025-09-17T22:33:35.272+08:00] cache found and marked as used, type: locate, prompt: 搜索框, index: 1
+[2025-09-17T22:33:35.276+08:00] will call updateFn to update cache, type: locate, prompt: 搜索框, index: 1
+[2025-09-17T22:33:35.276+08:00] cache updated, will flush to file, type: locate, prompt: 搜索框, index: 1
+[2025-09-17T22:33:35.278+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\bing-search.cache.yaml
+[2025-09-17T22:33:41.295+08:00] no unused cache found, type: locate, prompt: 搜索建议中的“今日天气”选项
+[2025-09-17T22:33:41.298+08:00] will append cache {
+  type: 'locate',
+  prompt: '搜索建议中的“今日天气”选项',
+  xpaths: [
+    '/html/body/div[1]/div[1]/div[3]/div[2]/form[1]/div[5]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[2]/span[normalize-space()="今日天气"]'
+  ]
+}
+[2025-09-17T22:33:41.299+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\bing-search.cache.yaml
+[2025-09-17T22:33:42.086+08:00] will call updateFn to update cache, type: plan, prompt: 搜索 "今日天气", index: 0
+[2025-09-17T22:33:42.086+08:00] cache updated, will flush to file, type: plan, prompt: 搜索 "今日天气", index: 0
+[2025-09-17T22:33:42.087+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\bing-search.cache.yaml
+[2025-09-17T22:36:14.876+08:00] no cache file found, path: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-17T22:36:14.880+08:00] no unused cache found, type: plan, prompt: 在账号登录区域输入账号 "qlt_test"
+[2025-09-17T22:36:23.578+08:00] no unused cache found, type: locate, prompt: 账号输入框
+[2025-09-17T22:36:23.583+08:00] will append cache {
+  type: 'locate',
+  prompt: '账号输入框',
+  xpaths: [ '/html/body/div[2]/div[1]/div[1]/input[1]' ]
+}
+[2025-09-17T22:36:23.586+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-17T22:36:28.957+08:00] will append cache {
+  type: 'plan',
+  prompt: '在账号登录区域输入账号 "qlt_test"',
+  yamlWorkflow: 'tasks:\n' +
+    '  - name: 在账号登录区域输入账号 "qlt_test"\n' +
+    '    flow:\n' +
+    "      - aiInput: ''\n" +
+    '        value: qlt_test\n' +
+    '        locate: 账号输入框\n'
+}
+[2025-09-17T22:36:28.958+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-17T22:36:28.988+08:00] no unused cache found, type: plan, prompt: 光标跳转到密码框
+[2025-09-17T22:36:33.661+08:00] no unused cache found, type: locate, prompt: 密码输入框
+[2025-09-17T22:36:33.807+08:00] will append cache {
+  type: 'locate',
+  prompt: '密码输入框',
+  xpaths: [ '/html/body/div[2]/div[1]/div[2]/input[1]' ]
+}
+[2025-09-17T22:36:33.808+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-17T22:36:34.271+08:00] will append cache {
+  type: 'plan',
+  prompt: '光标跳转到密码框',
+  yamlWorkflow: 'tasks:\n' +
+    '  - name: 光标跳转到密码框\n' +
+    '    flow:\n' +
+    "      - aiTap: ''\n" +
+    '        locate: 密码输入框\n'
+}
+[2025-09-17T22:36:34.272+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-17T22:36:36.293+08:00] no unused cache found, type: plan, prompt: 清空密码框
+[2025-09-17T22:36:41.569+08:00] no unused cache found, type: locate, prompt: 密码输入框
+[2025-09-17T22:36:41.575+08:00] will append cache {
+  type: 'locate',
+  prompt: '密码输入框',
+  xpaths: [ '/html/body/div[2]/div[1]/div[2]/input[1]' ]
+}
+[2025-09-17T22:36:41.577+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-17T22:36:42.159+08:00] will append cache {
+  type: 'plan',
+  prompt: '清空密码框',
+  yamlWorkflow: 'tasks:\n' +
+    '  - name: 清空密码框\n' +
+    '    flow:\n' +
+    "      - aiInput: ''\n" +
+    "        value: ''\n" +
+    '        locate: 密码输入框\n'
+}
+[2025-09-17T22:36:42.160+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-17T22:36:42.191+08:00] no unused cache found, type: plan, prompt: 输入密码 "qa123456"
+[2025-09-17T22:36:50.244+08:00] no unused cache found, type: locate, prompt: The password input field
+[2025-09-17T22:36:50.246+08:00] will append cache {
+  type: 'locate',
+  prompt: 'The password input field',
+  xpaths: [ '/html/body/div[2]/div[1]/div[2]/input[1]' ]
+}
+[2025-09-17T22:36:50.247+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-17T22:36:56.309+08:00] will append cache {
+  type: 'plan',
+  prompt: '输入密码 "qa123456"',
+  yamlWorkflow: 'tasks:\n' +
+    '  - name: 输入密码 "qa123456"\n' +
+    '    flow:\n' +
+    "      - aiInput: ''\n" +
+    '        value: qa123456\n' +
+    '        locate: The password input field\n'
+}
+[2025-09-17T22:36:56.310+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-17T22:36:56.490+08:00] no unused cache found, type: locate, prompt: 点击登录按钮
+[2025-09-17T22:37:00.374+08:00] will append cache {
+  type: 'locate',
+  prompt: '点击登录按钮',
+  xpaths: [ '/html/body/div[2]/div[1]/div[normalize-space()="登 录"]' ]
+}
+[2025-09-17T22:37:00.375+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-17T22:37:01.054+08:00] no unused cache found, type: locate, prompt: 点击左侧菜单「客户」
+[2025-09-18T10:38:44.025+08:00] cache loaded from file, path: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml, cache version: 0.28.9, record length: 9
+[2025-09-18T10:38:44.030+08:00] cache found and marked as used, type: plan, prompt: 在账号登录区域输入账号 "qlt_test", index: 0
+[2025-09-18T10:38:49.512+08:00] cache found and marked as used, type: locate, prompt: 账号输入框, index: 4
+[2025-09-18T10:38:49.517+08:00] will call updateFn to update cache, type: locate, prompt: 账号输入框, index: 4
+[2025-09-18T10:38:49.517+08:00] cache updated, will flush to file, type: locate, prompt: 账号输入框, index: 4
+[2025-09-18T10:38:49.519+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:38:54.212+08:00] will call updateFn to update cache, type: plan, prompt: 在账号登录区域输入账号 "qlt_test", index: 0
+[2025-09-18T10:38:54.212+08:00] cache updated, will flush to file, type: plan, prompt: 在账号登录区域输入账号 "qlt_test", index: 0
+[2025-09-18T10:38:54.213+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:38:54.244+08:00] cache found and marked as used, type: plan, prompt: 光标跳转到密码框, index: 1
+[2025-09-18T10:39:01.278+08:00] cache found and marked as used, type: locate, prompt: 密码输入框, index: 5
+[2025-09-18T10:39:01.415+08:00] will call updateFn to update cache, type: locate, prompt: 密码输入框, index: 5
+[2025-09-18T10:39:01.415+08:00] cache updated, will flush to file, type: locate, prompt: 密码输入框, index: 5
+[2025-09-18T10:39:01.416+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:01.931+08:00] will call updateFn to update cache, type: plan, prompt: 光标跳转到密码框, index: 1
+[2025-09-18T10:39:01.931+08:00] cache updated, will flush to file, type: plan, prompt: 光标跳转到密码框, index: 1
+[2025-09-18T10:39:01.932+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:01.953+08:00] cache found and marked as used, type: plan, prompt: 输入密码 "qa123456", index: 3
+[2025-09-18T10:39:09.408+08:00] cache found and marked as used, type: locate, prompt: The password input field, index: 7
+[2025-09-18T10:39:09.431+08:00] will call updateFn to update cache, type: locate, prompt: The password input field, index: 7
+[2025-09-18T10:39:09.432+08:00] cache updated, will flush to file, type: locate, prompt: The password input field, index: 7
+[2025-09-18T10:39:09.432+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:10.798+08:00] will call updateFn to update cache, type: plan, prompt: 输入密码 "qa123456", index: 3
+[2025-09-18T10:39:10.798+08:00] cache updated, will flush to file, type: plan, prompt: 输入密码 "qa123456", index: 3
+[2025-09-18T10:39:10.798+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:10.962+08:00] cache found and marked as used, type: locate, prompt: 点击登录按钮, index: 8
+[2025-09-18T10:39:13.573+08:00] will call updateFn to update cache, type: locate, prompt: 点击登录按钮, index: 8
+[2025-09-18T10:39:13.573+08:00] cache updated, will flush to file, type: locate, prompt: 点击登录按钮, index: 8
+[2025-09-18T10:39:13.574+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:14.607+08:00] no unused cache found, type: locate, prompt: 点击最左侧菜单栏中的「客户」
+[2025-09-18T10:39:17.950+08:00] will append cache {
+  type: 'locate',
+  prompt: '点击最左侧菜单栏中的「客户」',
+  xpaths: [ '/html/body/div[1]/div[1]/ul[1]/li[4]/div[1]/i[1]' ]
+}
+[2025-09-18T10:39:17.950+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:18.750+08:00] no unused cache found, type: locate, prompt: 点击「人群圈选」
+[2025-09-18T10:39:21.499+08:00] will append cache {
+  type: 'locate',
+  prompt: '点击「人群圈选」',
+  xpaths: [
+    '/html/body/div[1]/div[1]/ul[3]/div[1]/div[1]/div[1]/li[1]/ul[1]/li[1]/a[normalize-space()="人群圈选"]'
+  ]
+}
+[2025-09-18T10:39:21.501+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:26.209+08:00] no unused cache found, type: locate, prompt: 点击「新建人群」按钮
+[2025-09-18T10:39:28.344+08:00] will append cache {
+  type: 'locate',
+  prompt: '点击「新建人群」按钮',
+  xpaths: [
+    '/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[normalize-space()="新建人群"]'
+  ]
+}
+[2025-09-18T10:39:28.345+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:30.734+08:00] no unused cache found, type: locate, prompt: 点击「会员年龄」
+[2025-09-18T10:39:34.161+08:00] will append cache {
+  type: 'locate',
+  prompt: '点击「会员年龄」',
+  xpaths: [
+    '/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/section[1]/div[1]/div[1]/div[3]/div[normalize-space()="会员年龄"]'
+  ]
+}
+[2025-09-18T10:39:34.161+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:34.745+08:00] no unused cache found, type: plan, prompt: 输入条件 大于 20 岁
+[2025-09-18T10:39:39.718+08:00] no unused cache found, type: locate, prompt: 大于输入框
+[2025-09-18T10:39:39.729+08:00] will append cache {
+  type: 'locate',
+  prompt: '大于输入框',
+  xpaths: [
+    '/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]'
+  ]
+}
+[2025-09-18T10:39:39.730+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:44.062+08:00] will append cache {
+  type: 'plan',
+  prompt: '输入条件 大于 20 岁',
+  yamlWorkflow: 'tasks:\n' +
+    '  - name: 输入条件 大于 20 岁\n' +
+    '    flow:\n' +
+    "      - aiInput: ''\n" +
+    "        value: '20'\n" +
+    '        locate: 大于输入框\n'
+}
+[2025-09-18T10:39:44.063+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:44.110+08:00] no unused cache found, type: plan, prompt: 输入条件 小于等于 40 岁
+[2025-09-18T10:39:48.365+08:00] no unused cache found, type: locate, prompt: 小于等于的年龄输入框
+[2025-09-18T10:39:48.375+08:00] will append cache {
+  type: 'locate',
+  prompt: '小于等于的年龄输入框',
+  xpaths: [
+    '/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/input[1]'
+  ]
+}
+[2025-09-18T10:39:48.376+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:52.475+08:00] will append cache {
+  type: 'plan',
+  prompt: '输入条件 小于等于 40 岁',
+  yamlWorkflow: 'tasks:\n' +
+    '  - name: 输入条件 小于等于 40 岁\n' +
+    '    flow:\n' +
+    "      - aiInput: ''\n" +
+    "        value: '40'\n" +
+    '        locate: 小于等于的年龄输入框\n'
+}
+[2025-09-18T10:39:52.476+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:39:52.531+08:00] no unused cache found, type: plan, prompt: 在「人群命名」输入框输入 "自动创建人群1"
+[2025-09-18T10:39:59.774+08:00] no unused cache found, type: locate, prompt: 人群命名输入框
+[2025-09-18T10:39:59.955+08:00] will append cache {
+  type: 'locate',
+  prompt: '人群命名输入框',
+  xpaths: [
+    '/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[1]/input[1]'
+  ]
+}
+[2025-09-18T10:39:59.956+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:40:01.262+08:00] will append cache {
+  type: 'plan',
+  prompt: '在「人群命名」输入框输入 "自动创建人群1"',
+  yamlWorkflow: 'tasks:\n' +
+    '  - name: 在「人群命名」输入框输入 "自动创建人群1"\n' +
+    '    flow:\n' +
+    "      - aiInput: ''\n" +
+    '        value: 自动创建人群1\n' +
+    '        locate: 人群命名输入框\n'
+}
+[2025-09-18T10:40:01.263+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:40:01.323+08:00] no unused cache found, type: plan, prompt: 在备注框输入 "auto-1"
+[2025-09-18T10:40:07.350+08:00] no unused cache found, type: locate, prompt: The 备注 input box
+[2025-09-18T10:40:07.530+08:00] will append cache {
+  type: 'locate',
+  prompt: 'The 备注 input box',
+  xpaths: [
+    '/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/section[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/input[1]'
+  ]
+}
+[2025-09-18T10:40:07.531+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:40:08.732+08:00] will append cache {
+  type: 'plan',
+  prompt: '在备注框输入 "auto-1"',
+  yamlWorkflow: 'tasks:\n' +
+    '  - name: 在备注框输入 "auto-1"\n' +
+    '    flow:\n' +
+    "      - aiInput: ''\n" +
+    '        value: auto-1\n' +
+    '        locate: The 备注 input box\n'
+}
+[2025-09-18T10:40:08.733+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:40:08.968+08:00] no unused cache found, type: locate, prompt: 点击「保存人群」按钮
+[2025-09-18T10:40:11.204+08:00] will append cache {
+  type: 'locate',
+  prompt: '点击「保存人群」按钮',
+  xpaths: [
+    '/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/section[1]/div[2]/div[normalize-space()="保存人群"]'
+  ]
+}
+[2025-09-18T10:40:11.204+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:40:13.014+08:00] no unused cache found, type: locate, prompt: 在列表选择「自动创建人群1」
+[2025-09-18T10:40:15.543+08:00] will append cache {
+  type: 'locate',
+  prompt: '在列表选择「自动创建人群1」',
+  xpaths: [ '/html/body/div[1]/div[2]/div[2]/div[1]/div[4]' ]
+}
+[2025-09-18T10:40:15.544+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:40:16.423+08:00] no unused cache found, type: locate, prompt: 点击「删除」操作
+[2025-09-18T10:40:19.879+08:00] will append cache {
+  type: 'locate',
+  prompt: '点击「删除」操作',
+  xpaths: [
+    '/html/body/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/span[normalize-space()="删除"]'
+  ]
+}
+[2025-09-18T10:40:19.881+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:40:23.216+08:00] no unused cache found, type: locate, prompt: 若未出现弹窗则重试点击删除
+[2025-09-18T10:40:25.659+08:00] will append cache {
+  type: 'locate',
+  prompt: '若未出现弹窗则重试点击删除',
+  xpaths: [ '/html/body/div[3]/div[2]/div[normalize-space()="确认要删除吗？"]' ]
+}
+[2025-09-18T10:40:25.660+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml
+[2025-09-18T10:40:26.392+08:00] no unused cache found, type: locate, prompt: 在弹窗点击「确定」
+[2025-09-18T10:40:30.482+08:00] will append cache {
+  type: 'locate',
+  prompt: '在弹窗点击「确定」',
+  xpaths: [ '/html/body/div[3]/div[3]/div[normalize-space()="确定"]' ]
+}
+[2025-09-18T10:40:30.483+08:00] cache flushed to file: D:\DQC\midscene\midscene_run\cache\customer-segment.cache.yaml

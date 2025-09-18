@@ -1,0 +1,23 @@
+[2025-09-17T22:37:00.367+08:00] adaptBboxToRect [ 991, 350, 1274, 391 ] 1440 768 0 0 qwen-vl
+[2025-09-17T22:37:00.368+08:00] adaptBboxToRect, result= { left: 991, top: 350, width: 283, height: 41 }
+[2025-09-17T22:37:04.593+08:00] adaptBboxToRect [] 1440 768 0 0 qwen-vl
+[2025-09-18T10:39:13.565+08:00] adaptBboxToRect [ 991, 348, 1273, 390 ] 1440 768 0 0 qwen-vl
+[2025-09-18T10:39:13.565+08:00] adaptBboxToRect, result= { left: 991, top: 348, width: 282, height: 42 }
+[2025-09-18T10:39:17.943+08:00] adaptBboxToRect [ 0, 105, 42, 138 ] 1440 768 0 0 qwen-vl
+[2025-09-18T10:39:17.943+08:00] adaptBboxToRect, result= { left: 0, top: 105, width: 42, height: 33 }
+[2025-09-18T10:39:21.490+08:00] adaptBboxToRect [ 104, 98, 162, 115 ] 1440 768 0 0 qwen-vl
+[2025-09-18T10:39:21.490+08:00] adaptBboxToRect, result= { left: 104, top: 98, width: 58, height: 17 }
+[2025-09-18T10:39:28.323+08:00] adaptBboxToRect [ 205, 130, 274, 154 ] 1440 768 0 0 qwen-vl
+[2025-09-18T10:39:28.323+08:00] adaptBboxToRect, result= { left: 205, top: 130, width: 69, height: 24 }
+[2025-09-18T10:39:34.148+08:00] adaptBboxToRect [ 583, 269, 771, 310 ] 1440 768 0 0 qwen-vl
+[2025-09-18T10:39:34.148+08:00] adaptBboxToRect, result= { left: 583, top: 269, width: 188, height: 41 }
+[2025-09-18T10:40:11.194+08:00] adaptBboxToRect [ 1260, 703, 1448, 745 ] 1440 768 0 0 qwen-vl
+[2025-09-18T10:40:11.194+08:00] adaptBboxToRect, result= { left: 1260, top: 703, width: 180, height: 42 }
+[2025-09-18T10:40:15.532+08:00] adaptBboxToRect [ 901, 627, 1163, 664 ] 1440 768 0 0 qwen-vl
+[2025-09-18T10:40:15.532+08:00] adaptBboxToRect, result= { left: 901, top: 627, width: 262, height: 37 }
+[2025-09-18T10:40:19.859+08:00] adaptBboxToRect [ 1214, 245, 1237, 260 ] 1440 768 0 0 qwen-vl
+[2025-09-18T10:40:19.859+08:00] adaptBboxToRect, result= { left: 1214, top: 245, width: 23, height: 15 }
+[2025-09-18T10:40:25.654+08:00] adaptBboxToRect [ 546, 257, 910, 493 ] 1440 768 0 0 qwen-vl
+[2025-09-18T10:40:25.654+08:00] adaptBboxToRect, result= { left: 546, top: 257, width: 364, height: 236 }
+[2025-09-18T10:40:30.478+08:00] adaptBboxToRect [ 723, 453, 806, 485 ] 1440 768 0 0 qwen-vl
+[2025-09-18T10:40:30.478+08:00] adaptBboxToRect, result= { left: 723, top: 453, width: 83, height: 32 }

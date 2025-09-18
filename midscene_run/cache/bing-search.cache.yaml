@@ -1,0 +1,23 @@
+midsceneVersion: 0.28.9
+cacheId: bing-search
+caches:
+  - type: plan
+    prompt: 搜索 "今日天气"
+    yamlWorkflow: |
+      tasks:
+        - name: 搜索 "今日天气"
+          flow:
+            - aiInput: ''
+              value: 今日天气
+              locate: 搜索框
+            - aiTap: ''
+              locate: 搜索建议中的“今日天气”选项
+  - type: locate
+    prompt: 搜索框
+    xpaths:
+      - /html/body/div[1]/div[1]/div[3]/div[2]/form[1]/div[1]/div[1]/textarea[1]
+  - type: locate
+    prompt: 搜索建议中的“今日天气”选项
+    xpaths:
+      - >-
+        /html/body/div[1]/div[1]/div[3]/div[2]/form[1]/div[5]/div[1]/div[1]/div[1]/ul[1]/li[1]/div[2]/span[normalize-space()="今日天气"]

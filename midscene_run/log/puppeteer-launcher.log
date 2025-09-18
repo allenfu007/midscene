@@ -1,0 +1,70 @@
+[2025-09-17T22:25:10.157+08:00] launching browser with viewport, headed false viewport { width: 1440, height: 768, deviceScaleFactor: 1 } args [
+  '--disable-features=HttpsFirstBalancedModeAutoEnable',
+  '--disable-features=PasswordLeakDetection',
+  '--disable-save-password-bubble',
+  '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"',
+  '--window-size=1440,968'
+] preference {
+  headed: false,
+  keepWindow: false,
+  testId: 'bing-search',
+  cacheId: 'bing-search'
+}
+[2025-09-17T22:25:10.587+08:00] goto https://www.bing.com
+[2025-09-17T22:25:27.331+08:00] waitForNetworkIdle 2000
+[2025-09-17T22:28:14.602+08:00] launching browser with viewport, headed false viewport { width: 1440, height: 768, deviceScaleFactor: 1 } args [
+  '--disable-features=HttpsFirstBalancedModeAutoEnable',
+  '--disable-features=PasswordLeakDetection',
+  '--disable-save-password-bubble',
+  '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"',
+  '--window-size=1440,968'
+] preference {
+  headed: false,
+  keepWindow: false,
+  testId: 'bing-search',
+  cacheId: 'bing-search'
+}
+[2025-09-17T22:28:15.002+08:00] goto https://www.bing.com
+[2025-09-17T22:28:24.597+08:00] waitForNetworkIdle 2000
+[2025-09-17T22:33:18.250+08:00] launching browser with viewport, headed true viewport { width: 1440, height: 768, deviceScaleFactor: 1 } args [
+  '--disable-features=HttpsFirstBalancedModeAutoEnable',
+  '--disable-features=PasswordLeakDetection',
+  '--disable-save-password-bubble',
+  '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"',
+  '--start-maximized'
+] preference {
+  headed: true,
+  keepWindow: false,
+  testId: 'bing-search',
+  cacheId: 'bing-search'
+}
+[2025-09-17T22:33:18.650+08:00] goto https://www.bing.com
+[2025-09-17T22:33:27.044+08:00] waitForNetworkIdle 2000
+[2025-09-17T22:36:11.372+08:00] launching browser with viewport, headed true viewport { width: 1440, height: 768, deviceScaleFactor: 1 } args [
+  '--disable-features=HttpsFirstBalancedModeAutoEnable',
+  '--disable-features=PasswordLeakDetection',
+  '--disable-save-password-bubble',
+  '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"',
+  '--start-maximized'
+] preference {
+  headed: true,
+  keepWindow: false,
+  testId: 'customer-segment',
+  cacheId: 'customer-segment'
+}
+[2025-09-17T22:36:13.140+08:00] goto https://cdp45.pospal.cn/CDP/Account/SignIn
+[2025-09-17T22:36:14.320+08:00] waitForNetworkIdle 2000
+[2025-09-18T10:38:42.162+08:00] launching browser with viewport, headed true viewport { width: 1440, height: 768, deviceScaleFactor: 1 } args [
+  '--disable-features=HttpsFirstBalancedModeAutoEnable',
+  '--disable-features=PasswordLeakDetection',
+  '--disable-save-password-bubble',
+  '--user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"',
+  '--start-maximized'
+] preference {
+  headed: true,
+  keepWindow: false,
+  testId: 'customer-segment',
+  cacheId: 'customer-segment'
+}
+[2025-09-18T10:38:42.644+08:00] goto https://cdp45.pospal.cn/CDP/Account/SignIn
+[2025-09-18T10:38:43.482+08:00] waitForNetworkIdle 2000

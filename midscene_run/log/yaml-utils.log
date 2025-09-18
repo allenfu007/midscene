@@ -1,0 +1,12 @@
+[2025-09-17T22:36:56.352+08:00] will call buildDetailedLocateParam 点击登录按钮 { aiTap: '点击登录按钮', prompt: '点击登录按钮' }
+[2025-09-17T22:37:00.922+08:00] will call buildDetailedLocateParam 点击左侧菜单「客户」 { aiTap: '点击左侧菜单「客户」', prompt: '点击左侧菜单「客户」' }
+[2025-09-18T10:39:10.822+08:00] will call buildDetailedLocateParam 点击登录按钮 { aiTap: '点击登录按钮', prompt: '点击登录按钮' }
+[2025-09-18T10:39:14.123+08:00] will call buildDetailedLocateParam 点击最左侧菜单栏中的「客户」 { aiTap: '点击最左侧菜单栏中的「客户」', prompt: '点击最左侧菜单栏中的「客户」' }
+[2025-09-18T10:39:18.553+08:00] will call buildDetailedLocateParam 点击「人群圈选」 { aiTap: '点击「人群圈选」', prompt: '点击「人群圈选」' }
+[2025-09-18T10:39:26.024+08:00] will call buildDetailedLocateParam 点击「新建人群」按钮 { aiTap: '点击「新建人群」按钮', prompt: '点击「新建人群」按钮' }
+[2025-09-18T10:39:30.557+08:00] will call buildDetailedLocateParam 点击「会员年龄」 { aiTap: '点击「会员年龄」', prompt: '点击「会员年龄」' }
+[2025-09-18T10:40:08.798+08:00] will call buildDetailedLocateParam 点击「保存人群」按钮 { aiTap: '点击「保存人群」按钮', prompt: '点击「保存人群」按钮' }
+[2025-09-18T10:40:12.842+08:00] will call buildDetailedLocateParam 在列表选择「自动创建人群1」 { aiTap: '在列表选择「自动创建人群1」', prompt: '在列表选择「自动创建人群1」' }
+[2025-09-18T10:40:16.260+08:00] will call buildDetailedLocateParam 点击「删除」操作 { aiTap: '点击「删除」操作', prompt: '点击「删除」操作' }
+[2025-09-18T10:40:23.076+08:00] will call buildDetailedLocateParam 若未出现弹窗则重试点击删除 { aiTap: '若未出现弹窗则重试点击删除', prompt: '若未出现弹窗则重试点击删除' }
+[2025-09-18T10:40:26.237+08:00] will call buildDetailedLocateParam 在弹窗点击「确定」 { aiTap: '在弹窗点击「确定」', prompt: '在弹窗点击「确定」' }

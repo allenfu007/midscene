@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "total": 1,
+    "successful": 1,
+    "failed": 0,
+    "totalDuration": 108958,
+    "generatedAt": "2025/9/18 10:40:31"
+  },
+  "results": [
+    {
+      "script": "..\\..\\customer-segment.yaml",
+      "success": true,
+      "report": "..\\report\\customer-segment-2025-09-18_10-38-44-bac923a0.html",
+      "duration": 108958
+    }
+  ]
+}

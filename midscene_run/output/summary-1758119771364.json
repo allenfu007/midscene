@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "total": 1,
+    "successful": 0,
+    "failed": 1,
+    "totalDuration": 53288,
+    "generatedAt": "2025/9/17 22:37:04"
+  },
+  "results": [
+    {
+      "script": "..\\..\\customer-segment.yaml",
+      "success": false,
+      "report": "..\\report\\customer-segment-2025-09-17_22-36-14-8dc46ddc.html",
+      "error": "Execution failed",
+      "duration": 53288
+    }
+  ]
+}

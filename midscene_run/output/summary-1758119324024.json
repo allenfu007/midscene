@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "total": 1,
+    "successful": 0,
+    "failed": 1,
+    "totalDuration": 3,
+    "generatedAt": "2025/9/17 22:28:44"
+  },
+  "results": [
+    {
+      "script": "..\\..\\bing-search.yaml",
+      "success": false,
+      "error": "Could not find Chrome (ver. 133.0.6943.53). This can occur if either\n 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or\n 2. your cache path is incorrectly configured (which is: C:\\Users\\fusha\\.cache\\puppeteer).\nFor (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.",
+      "duration": 3
+    }
+  ]
+}
